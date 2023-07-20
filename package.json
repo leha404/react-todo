@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "start": "kill-port 3000 && react-scripts start"
+  },
+  "dependencies": {
+    "kill-port": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "name": "react-todo",
+  "description": "Мой пробный проект для изучения React",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aleksey Chernavskiy",
+  "license": "ISC"
+}
