@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "kill-port 3000 && react-scripts start"
+    "start": "kill-port 3000 && react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "kill-port": "^2.0.1",
