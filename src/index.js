@@ -1,10 +1,15 @@
+// React dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// App Component
 const App = () => {
+  // Injecting code into html (JSX) is like {var}
+  const name = 'Username :)'
+
   return (
     <div>
-      <h1>Hello World!</h1>
+      <h1 className='heading'>Hello, {name}!</h1>
 
       <p>План по ReadMe:</p>
       <div>
@@ -55,4 +60,5 @@ const App = () => {
   );
 };
 
+// What and Where to render
 ReactDOM.render(<App />, document.getElementById('root'));
