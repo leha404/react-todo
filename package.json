@@ -1,7 +1,11 @@
 {
   "scripts": {
     "start": "kill-port 3000 && react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "kill-port": "^2.0.1",
@@ -26,5 +30,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Aleksey Chernavskiy",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://leha404.github.io/react-todo/",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
