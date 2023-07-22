@@ -1,5 +1,8 @@
 # react-todo
 
+`npm install`
+`npm start`
+
 Pages: https://leha404.github.io/react-todo/
 
 Мой пробный проект для изучения React (2023-07-20)
