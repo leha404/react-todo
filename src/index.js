@@ -2,6 +2,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// Inline styling
+const customStyle = {
+  color: "red",
+}
+
+// Update Custom Style JSON
+customStyle.color = "blue"
+
 // App Component
 const App = () => {
   // Injecting code into html (JSX) is like {var}
@@ -11,7 +19,7 @@ const App = () => {
     <div>
       <h1 className='heading'>Hello, {name}!</h1>
 
-      <p>План по ReadMe:</p>
+      <p style={customStyle}>План по ReadMe:</p>
       <div>
         <input type='checkbox'></input>
         <label> Компонент ToDo List</label>
