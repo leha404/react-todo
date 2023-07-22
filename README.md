@@ -1,5 +1,7 @@
 # react-todo
 
+Pages: https://leha404.github.io/react-todo/
+
 Мой пробный проект для изучения React (2023-07-20)
 Примерный план:
 
