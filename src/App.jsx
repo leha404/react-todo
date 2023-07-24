@@ -1,22 +1,13 @@
 import Heading from './components/Heading';
-import List from './components/List';
-
-// Inline styling
-const customStyle = {
-  color: "red",
-};
-
-// Update Custom Style JSON
-customStyle.color = "blue";
+import ToDoList from './components/ToDoList';
 
 // App Component
 const App = () => {
   return (
     <div>
       <Heading />
-
-      <p style={customStyle}>План по ReadMe:</p>
-      <List />
+      <p>План по ReadMe:</p>
+      <ToDoList />
     </div>
   );
 };

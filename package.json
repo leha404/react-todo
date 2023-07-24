@@ -8,10 +8,13 @@
     "deploy" : "gh-pages -d build"
   },
   "dependencies": {
-    "kill-port": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "kill-port": "^2.0.1"
   },
   "browserslist": {
     "production": [
@@ -31,8 +34,5 @@
   "main": "index.js",
   "author": "Aleksey Chernavskiy",
   "license": "ISC",
-  "homepage": "https://leha404.github.io/react-todo/",
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "homepage": "https://leha404.github.io/react-todo/"
 }
