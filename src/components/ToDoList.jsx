@@ -1,4 +1,6 @@
-function List() {
+import Task from "./Task";
+
+function ToDoList() {
   // Inline styling
   const customStyle = {
     color: "red",
@@ -16,10 +18,7 @@ function List() {
     </li>
 
     <li>
-      <div>
-        <input type="checkbox" disabled checked={false}></input>
-        <label> Компонент Task</label>
-      </div>
+      <Task />
     </li>
 
     <li>
@@ -75,4 +74,4 @@ function List() {
   </ol>;
 }
 
-export default List
+export default ToDoList
