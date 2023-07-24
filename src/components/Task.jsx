@@ -1,5 +1,4 @@
 function Task(props) {
-
   const textStyle = {
     color: "black"
   }
@@ -9,8 +8,8 @@ function Task(props) {
   }
 
   return (
-    <div>
-      <input type="checkbox" disabled checked={props.checked}></input>
+    <div className="form-check form-switch">
+      <input className="form-check-input" type="checkbox" disabled checked={props.checked}></input>
       <label style={textStyle}> {props.text}</label>
     </div>
   );
