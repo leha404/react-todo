@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Heading />
-      <p>План по ReadMe:</p>
+      <h2>План по ReadMe:</h2>
       <ToDoList />
     </div>
   );
