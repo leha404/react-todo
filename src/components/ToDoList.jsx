@@ -1,20 +1,9 @@
 import Task from "./Task";
 
 function ToDoList() {
-  // Inline styling
-  const customStyle = {
-    color: "red",
-  };
-
-  // Update Custom Style JSON
-  customStyle.color = "green";
-
   return <ol>
     <li>
-      <div>
-        <input type="checkbox" disabled checked={true}></input>
-        <label style={customStyle}> Компонент ToDo List - 2023-07-22</label>
-      </div>
+      <Task checked={true} text="Компонент ToDo List - 2023-07-22"/>
     </li>
 
     <li>
