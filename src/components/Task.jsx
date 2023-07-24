@@ -1,8 +1,17 @@
-function Task() {
+function Task(props) {
+
+  const textStyle = {
+    color: "black"
+  }
+
+  if (props.checked) {
+    textStyle.color = "green"
+  }
+
   return (
     <div>
-      <input type="checkbox" disabled checked={true}></input>
-      <label> Компонент Task - 2023-07-22</label>
+      <input type="checkbox" disabled checked={props.checked}></input>
+      <label style={textStyle}> {props.text}</label>
     </div>
   );
 }

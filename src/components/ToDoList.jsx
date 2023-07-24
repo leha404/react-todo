@@ -13,63 +13,40 @@ function ToDoList() {
     <li>
       <div>
         <input type="checkbox" disabled checked={true}></input>
-        <label style={customStyle}> Компонент ToDo List: 2023-07-22</label>
+        <label style={customStyle}> Компонент ToDo List - 2023-07-22</label>
       </div>
     </li>
 
     <li>
-      <Task />
+      <Task checked={true} text="Компонент Task - 2023-07-23"/>
     </li>
 
     <li>
-      <div>
-        <input type="checkbox" disabled checked={false}></input>
-        <label> Состояние tasks</label>
-      </div>
+      <Task checked={false} text="Состояние tasks"/>
     </li>
 
     <li>
-      <div>
-        <input type="checkbox" disabled checked={false}></input>
-        <label> Добавление новой задачи</label>
-      </div>
+      <Task checked={false} text="Добавление новой задачи"/>
     </li>
 
     <li>
-      <div>
-        <input type="checkbox" disabled checked={false}></input>
-        <label> Изменение статуса задача</label>
-      </div>
+      <Task checked={false} text="Изменение статуса задача"/>
     </li>
 
     <li>
-      <div>
-        <input type="checkbox" disabled checked={false}></input>
-        <label> Удаление задачи</label>
-      </div>
+      <Task checked={false} text="Удаление задачи"/>
     </li>
 
     <li>
-      <div>
-        <input type="checkbox" disabled checked={false}></input>
-        <label> Список задач на странице</label>
-      </div>
+      <Task checked={false} text="Список задач на странице"/>
     </li>
 
     <li>
-      <div>
-        <input type="checkbox" disabled checked={false}></input>
-        <label> Фильтрация задач</label>
-      </div>
+      <Task checked={false} text="Фильтрация задач"/>
     </li>
 
     <li>
-      <div>
-        <input type="checkbox" disabled checked={false}></input>
-        <label>
-          Элементы управления для добавления, фильтрации и очистки списка задач
-        </label>
-      </div>
+      <Task checked={false} text="Элементы управления для добавления, фильтрации и очистки списка задач"/>
     </li>
   </ol>;
 }
