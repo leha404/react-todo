@@ -1,4 +1,4 @@
-const tasks = [
+const tasksData = [
     {
         checked: true,
         text: "Компонент ToDo List - 2023-07-22"
@@ -37,4 +37,4 @@ const tasks = [
     }
 ]
 
-export default tasks;
+export default tasksData;

@@ -1,5 +1,5 @@
 import Heading from './components/Heading';
-import ToDoList from './components/ToDoList';
+import TaskList from './components/TaskList';
 
 // App Component
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <Heading />
       <h2>План по ReadMe:</h2>
-      <ToDoList />
+      <TaskList />
     </div>
   );
 };
