@@ -8,8 +8,8 @@ const tasksData = [
         text: "Компонент Task - 2023-07-23"
     },
     {
-        checked: false,
-        text: "Состояние tasks"
+        checked: true,
+        text: "Состояние tasks - 2023-08-02"
     },
     {
         checked: false,
