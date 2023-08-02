@@ -1,15 +1,13 @@
 import Task from "./Task";
 import tasks from "../tasks";
 
-function createTask(task) {
-  return <li>
-    <Task key={task.name} checked={task.checked} text={task.text}/>
-  </li>;
-}
-
 function ToDoList() {
   return <ol>
-    {tasks.map(createTask)}
+    {tasks.map(task => 
+      <li>
+        <Task key={task.text} checked={task.checked} text={task.text}/>
+      </li>
+    )}
   </ol>;
 }
 
