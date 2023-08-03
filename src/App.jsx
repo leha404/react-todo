@@ -10,7 +10,7 @@ const App = () => {
       <h2>План по ReadMe:</h2>
       <TaskList />
       <br />
-      <h3>Тестовая тудушка:</h3>
+      <h3>Тудушка:</h3>
       <ToDoList />
     </div>
   );

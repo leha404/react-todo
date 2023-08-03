@@ -1,27 +1,21 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
+import ToDo from "./ToDo";
 
-// Hooks can call only inside render function
-function ToDoList() { 
-  // State: init value AND func for this value
-  const [isDone, setDone] = useState(false);
+function ToDoList() {   
+  const [list, setList] = useState([])
 
-  // Hook
-  function change() {
-    setDone(!isDone);
+  function setState(newToDo) {
+    setList(...list, newToDo)
+    console.log(list)
   }
 
-  const doneStyle = {
-    textDecoration: "line-through"
-  }
+  let val = '123123'
   
   return <div>
+    <input placeholder="Введите текст" value={val}></input>
+    <button onClick={() => {setState(val)}}>Добавить</button>
     <ul>
-      <li>
-        <p style={isDone ? doneStyle : null}>
-          Тестовый элемент
-          <button onClick={change}>Выполнить / Отменить</button>
-        </p>
-      </li>
+      <ToDo />
     </ul>
   </div>
 }
