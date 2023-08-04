@@ -1,10 +1,14 @@
 # react-todo
 
+**P.S.** Проект не закончен в текущей реализации
+и переехал на TypeScript + Tailwind CSS:
+**https://github.com/leha404/react-ts-tailwind-todo-app**
+
+---
+
 `npm install`
 `npm start`
 `npm deploy`
-
-Pages: https://leha404.github.io/react-todo/
 
 Мой пробный проект для изучения React (2023-07-20)
 Примерный план:
